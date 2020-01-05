@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+}
+
+#map{
+    height: 100%;
+    background: #ddd;
+}
+
+#panel{
+    height: 100%;
+    width: null;
+    background: #f2f2f2;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: all .2s ease-out;
+}
+
+.open{
+    width: 250px;
+}
+
+.hero{
+    width: 100%;
+    height: auto;
+    max-height: 166px;
+    display: block;
+}
+.place{
+    letter-spacing: 0;
+    margin-top: 0.6em;
+}
+.place,
+p{
+    font-family: 'YuGothic','Helvetica Neue',sans-serif;
+    line-height: 1.5;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.details{
+    color: #454545;
+}
+
+a{
+    text-decoration: none;
+    color: cadetblue;
+}
